@@ -19,7 +19,13 @@ export const Overlay = styled.div`
     left: 0;
     width: 100%;
     min-height: 52rem;
-    background-color: rgba(0,0,0,0.8);
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+50,000000+72,010016+100&0.8+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.94) 72%, rgba(1,0,22,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0.94) 72%,rgba(1,0,22,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0.94) 72%,rgba(1,0,22,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#010016',GradientType=0 ); /* IE6-9 */
+
+
     z-index: 10;
 `;
 
