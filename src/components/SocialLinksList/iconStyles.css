@@ -1,0 +1,7 @@
+.iconColor {
+    color: #61B0E0;
+    transition: all .2s;
+}
+.iconColor:hover {
+    color: #FFB300;
+}
