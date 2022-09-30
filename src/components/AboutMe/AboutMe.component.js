@@ -12,7 +12,7 @@ import {
   AboutMeEm,
 } from "./AboutMe.styles";
 
-import SocialLinkSection from "../SocialLinks/SocialLinks.component";
+import SocialLinksSection from "../SocialLinksSection/SocialLinksSection.component";
 
 const AboutMeSection = () => {
   return (
@@ -77,7 +77,7 @@ const AboutMeSection = () => {
         </AboutMeParagraph>
 
         <p>Follow Me</p>
-        <SocialLinkSection />
+        <SocialLinksSection />
       </AboutMeRight>
     </AboutMe>
   );

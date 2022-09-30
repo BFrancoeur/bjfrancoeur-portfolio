@@ -45,3 +45,8 @@
   align-items: center;
 }
 
+:root {
+  --fa-primary-color: #fff4e5;
+  --fa-secondary-color: #ffB300;
+}
+
